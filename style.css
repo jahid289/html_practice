@@ -1,0 +1,40 @@
+h1{
+    background-color: antiquewhite;
+    text-align: center;
+    color: green;
+    border: 2px dotted red;
+    border-radius: 25px;
+    margin: 0 25% 0 25%;
+    padding: 7px;
+
+}
+.para1{
+    background-color: aliceblue;
+    color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    margin: 0  45% 0 45%;
+}
+
+.flex-container{
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 25%;
+    flex: basis 25;;
+
+
+}
+.f1{
+    background-color: aquamarine;
+    border: .5px solid black;
+    align-items: center;
+    flex-basis: 25%;
+    text-align: center;
+    border-radius: 5px;
+
+}
