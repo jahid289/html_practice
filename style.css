@@ -7,6 +7,7 @@ h1{
     margin: 0 25% 0 25%;
     padding: 7px;
 
+
 }
 .para1{
     background-color: aliceblue;
@@ -34,9 +35,13 @@ h1{
     background-color: aquamarine;
     border: .5px solid black;
     align-items: center;
+    display: flex;
+    flex-direction: column;
     flex-basis: 25%;
     text-align: center;
-    border-radius: 5px;
+    padding: 0;
+    row-gap: 10px;
+    row-gap: 10px;
 
 }
 .flex-container2{
@@ -61,4 +66,28 @@ a{
     text-align: center;
     border-radius: 5px;
     row-gap: 10px;
+}
+
+.sec1{
+    background-color: antiquewhite;
+    border: black solid .05px;
+    margin: 5px 0 5px 0;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.sec2{
+    background-color: antiquewhite;
+    border: black solid .05px;
+    text-align: center;
+}
+.mainflex-container{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 10% 90%;
+    column-gap: 15px;
+}
+.m1{
+    border: 1px solid green;
+    text-align: center;
 }
