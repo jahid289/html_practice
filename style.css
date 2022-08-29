@@ -90,4 +90,25 @@ a{
 .m1{
     border: 1px solid green;
     text-align: center;
+    background-color: rgb(222, 238, 252);
+}
+img{
+    width: 24%;cd
+    height : auto;
+}
+
+#im1{
+    border-radius: 0, 10px, 0, 10px;
+}
+#im1 {
+    border-radius: 0 95px 0 95px;
+}
+#im2 {
+    border-radius: 95px 0 95px 0;
+}
+#im3 {
+    border-radius: 95px 0 95px 0;
+}
+#im4 {
+    border-radius: 0 95px 0 95px;
 }
